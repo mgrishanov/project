@@ -1,0 +1,10 @@
+parser/vendor
+init
+docs
+.env
+.env.example
+clickhouse/clickhouse-server/users.d
+clickhouse/clickhouse-server/config.d
+parser/src/Api/WildberriesHeaders.php
+.idea
+README.md

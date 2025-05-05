@@ -1,0 +1,84 @@
+services:
+  parser:
+    build:
+      context: ./parser
+      dockerfile: Dockerfile
+    volumes:
+      - ./parser:/app
+      - ./parser/logs:/var/log/wb-parser
+      - ./parser/output:/app/output
+    tty: true
+    environment:
+      # Wildberries API Configuration
+      WB_API_BASE_URL: "https://www.wildberries.ru/webapi"
+      WB_CATALOG_API_URL: "https://catalog.wb.ru"
+      WB_CARD_API_URL: "https://card.wb.ru"
+      WB_STATIC_API_URL: "https://static-basket-01.wbbasket.ru"
+      
+      # Kafka Configuration
+      KAFKA_BROKERS: "kafka:9092"
+      KAFKA_TOPIC_BRANDS: "brands"
+      KAFKA_TOPIC_PRODUCTS: "products"
+      KAFKA_TOPIC_QUANTITIES: "quantities"
+      
+      # Parser Configuration
+      PARSER_REQUEST_DELAY: "500"
+      PARSER_CHUNK_SIZE: "100"
+      PARSER_MAX_RETRIES: "3"
+      PARSER_USER_AGENT: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+      
+      # Logging
+      LOG_LEVEL: "debug"
+      LOG_PATH: "/var/log/wb-parser"
+      
+      # Mock output directory
+      MOCK_OUTPUT_DIR: "/app/output"
+    
+    # command: php bin/console parse:brands
+    
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    depends_on:
+      - kafka
+    ports:
+      - "8123:8123"
+      - "9000:9000"
+    volumes:
+      - ./clickhouse_data:/var/lib/clickhouse
+      - ./init:/docker-entrypoint-initdb.d
+      - ./clickhouse/clickhouse-server:/etc/clickhouse-server
+    environment:
+      CLICKHOUSE_DB: default
+
+  kafka-ui:
+    image: provectuslabs/kafka-ui:latest
+    depends_on:
+      - kafka
+    ports:
+      - "8080:8080"
+    environment:
+      KAFKA_CLUSTERS_0_NAME: local
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:9092
+      KAFKA_CLUSTERS_0_ZOOKEEPER: zookeeper:2181

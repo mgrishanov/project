@@ -1,0 +1,55 @@
+[2025-04-30 10:20:25] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:20:25] parser.ERROR: Parser failed {"error":"Class \"Longlang\\Phpkafka\\Producer\\ProducerConfig\" not found"} 
+[2025-04-30 10:21:28] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:21:28] parser.ERROR: Parser failed {"error":"Call to undefined method longlang\\phpkafka\\Producer\\ProducerConfig::setSocketTimeout()"} 
+[2025-04-30 10:29:00] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:29:00] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 10:30:48] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:30:48] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 10:32:25] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:32:25] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 10:33:22] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:33:22] parser.ERROR: Parser failed {"error":"WB\\Parser\\Factory\\ProducerFactory::create(): Return value must be of type WB\\Parser\\Producer\\KafkaProducer, WB\\Parser\\Producer\\MockKafkaProducer returned"} 
+[2025-04-30 10:35:24] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:35:24] parser.ERROR: Parser failed {"error":"WB\\Parser\\Service\\BrandService::__construct(): Argument #2 ($producer) must be of type WB\\Parser\\Producer\\KafkaProducer, WB\\Parser\\Producer\\MockKafkaProducer given, called in /app/bin/parser on line 43"} 
+[2025-04-30 10:36:21] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:36:24] parser.ERROR: Parser failed {"error":"Failed to make request to https://www.wildberries.ru/webapi/brandlist/data after 3 attempts: Client error: `POST https://www.wildberries.ru/webapi/brandlist/data` resulted in a `498 ` response:
+<!doctype html><html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta name=\"viewport\" cont (truncated...)
+"} 
+[2025-04-30 10:49:09] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:49:09] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 10:50:45] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:50:45] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 10:53:08] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:53:08] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 10:53:15] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:53:15] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 10:53:18] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:53:18] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 10:56:22] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:56:22] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 10:59:12] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:59:12] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 10:59:40] parser.INFO: Starting Wildberries parser  
+[2025-04-30 10:59:40] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 11:00:14] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:00:14] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 11:01:46] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:01:46] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 11:01:52] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:01:52] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 11:01:56] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:01:56] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 11:29:13] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:29:13] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 11:43:55] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:43:55] parser.ERROR: Parser failed {"error":"array_rand(): Argument #1 ($array) cannot be empty"} 
+[2025-04-30 11:44:57] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:45:48] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:46:18] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:46:30] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:46:32] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:47:37] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:47:44] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:48:20] parser.INFO: Starting Wildberries parser  
+[2025-04-30 11:48:35] parser.INFO: Starting Wildberries parser  

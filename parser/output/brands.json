@@ -1,0 +1,504 @@
+{
+    "id": 1097,
+    "name": "Mock Brand a",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:49:54"
+}
+{
+    "id": 2097,
+    "name": "Test Brand a",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:49:54"
+}
+{
+    "id": 1098,
+    "name": "Mock Brand b",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:49:56"
+}
+{
+    "id": 2098,
+    "name": "Test Brand b",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:49:56"
+}
+{
+    "id": 1099,
+    "name": "Mock Brand c",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:49:58"
+}
+{
+    "id": 2099,
+    "name": "Test Brand c",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:49:58"
+}
+{
+    "id": 1100,
+    "name": "Mock Brand d",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:00"
+}
+{
+    "id": 2100,
+    "name": "Test Brand d",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:00"
+}
+{
+    "id": 1101,
+    "name": "Mock Brand e",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:02"
+}
+{
+    "id": 2101,
+    "name": "Test Brand e",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:02"
+}
+{
+    "id": 1102,
+    "name": "Mock Brand f",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:04"
+}
+{
+    "id": 2102,
+    "name": "Test Brand f",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:04"
+}
+{
+    "id": 1103,
+    "name": "Mock Brand g",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:06"
+}
+{
+    "id": 2103,
+    "name": "Test Brand g",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:06"
+}
+{
+    "id": 1104,
+    "name": "Mock Brand h",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:08"
+}
+{
+    "id": 2104,
+    "name": "Test Brand h",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:08"
+}
+{
+    "id": 1105,
+    "name": "Mock Brand i",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:10"
+}
+{
+    "id": 2105,
+    "name": "Test Brand i",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:10"
+}
+{
+    "id": 1106,
+    "name": "Mock Brand j",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:12"
+}
+{
+    "id": 2106,
+    "name": "Test Brand j",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:12"
+}
+{
+    "id": 1107,
+    "name": "Mock Brand k",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:14"
+}
+{
+    "id": 2107,
+    "name": "Test Brand k",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:14"
+}
+{
+    "id": 1108,
+    "name": "Mock Brand l",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:16"
+}
+{
+    "id": 2108,
+    "name": "Test Brand l",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:16"
+}
+{
+    "id": 1109,
+    "name": "Mock Brand m",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:18"
+}
+{
+    "id": 2109,
+    "name": "Test Brand m",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:18"
+}
+{
+    "id": 1110,
+    "name": "Mock Brand n",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:20"
+}
+{
+    "id": 2110,
+    "name": "Test Brand n",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:20"
+}
+{
+    "id": 1111,
+    "name": "Mock Brand o",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:22"
+}
+{
+    "id": 2111,
+    "name": "Test Brand o",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:22"
+}
+{
+    "id": 1112,
+    "name": "Mock Brand p",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:24"
+}
+{
+    "id": 2112,
+    "name": "Test Brand p",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:24"
+}
+{
+    "id": 1113,
+    "name": "Mock Brand q",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:26"
+}
+{
+    "id": 2113,
+    "name": "Test Brand q",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:26"
+}
+{
+    "id": 1114,
+    "name": "Mock Brand r",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:28"
+}
+{
+    "id": 2114,
+    "name": "Test Brand r",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:28"
+}
+{
+    "id": 1115,
+    "name": "Mock Brand s",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:30"
+}
+{
+    "id": 2115,
+    "name": "Test Brand s",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:30"
+}
+{
+    "id": 1116,
+    "name": "Mock Brand t",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:32"
+}
+{
+    "id": 2116,
+    "name": "Test Brand t",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:32"
+}
+{
+    "id": 1117,
+    "name": "Mock Brand u",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:34"
+}
+{
+    "id": 2117,
+    "name": "Test Brand u",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:34"
+}
+{
+    "id": 1118,
+    "name": "Mock Brand v",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:36"
+}
+{
+    "id": 2118,
+    "name": "Test Brand v",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:36"
+}
+{
+    "id": 1119,
+    "name": "Mock Brand w",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:37"
+}
+{
+    "id": 2119,
+    "name": "Test Brand w",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:37"
+}
+{
+    "id": 1120,
+    "name": "Mock Brand x",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:39"
+}
+{
+    "id": 2120,
+    "name": "Test Brand x",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:39"
+}
+{
+    "id": 1121,
+    "name": "Mock Brand y",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:41"
+}
+{
+    "id": 2121,
+    "name": "Test Brand y",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:41"
+}
+{
+    "id": 1122,
+    "name": "Mock Brand z",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:43"
+}
+{
+    "id": 2122,
+    "name": "Test Brand z",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:43"
+}
+{
+    "id": 1208,
+    "name": "Mock Brand а-я",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:47"
+}
+{
+    "id": 2208,
+    "name": "Test Brand а-я",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:47"
+}
+{
+    "id": 1049,
+    "name": "Mock Brand 123",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:49"
+}
+{
+    "id": 2049,
+    "name": "Test Brand 123",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 07:50:49"
+}
+{
+    "id": 1097,
+    "name": "Mock Brand a",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:05:52"
+}
+{
+    "id": 2097,
+    "name": "Test Brand a",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:05:52"
+}
+{
+    "id": 1098,
+    "name": "Mock Brand b",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:05:55"
+}
+{
+    "id": 2098,
+    "name": "Test Brand b",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:05:55"
+}
+{
+    "id": 1099,
+    "name": "Mock Brand c",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:06:28"
+}
+{
+    "id": 2099,
+    "name": "Test Brand c",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:06:28"
+}
+{
+    "id": 1100,
+    "name": "Mock Brand d",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:06:31"
+}
+{
+    "id": 2100,
+    "name": "Test Brand d",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:06:31"
+}
+{
+    "id": 1101,
+    "name": "Mock Brand e",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:05"
+}
+{
+    "id": 2101,
+    "name": "Test Brand e",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:05"
+}
+{
+    "id": 1102,
+    "name": "Mock Brand f",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:10"
+}
+{
+    "id": 2102,
+    "name": "Test Brand f",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:10"
+}
+{
+    "id": 1103,
+    "name": "Mock Brand g",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:13"
+}
+{
+    "id": 2103,
+    "name": "Test Brand g",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:13"
+}
+{
+    "id": 1104,
+    "name": "Mock Brand h",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:15"
+}
+{
+    "id": 2104,
+    "name": "Test Brand h",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:15"
+}
+{
+    "id": 1105,
+    "name": "Mock Brand i",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:17"
+}
+{
+    "id": 2105,
+    "name": "Test Brand i",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:17"
+}
+{
+    "id": 1106,
+    "name": "Mock Brand j",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:19"
+}
+{
+    "id": 2106,
+    "name": "Test Brand j",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:19"
+}
+{
+    "id": 1107,
+    "name": "Mock Brand k",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:21"
+}
+{
+    "id": 2107,
+    "name": "Test Brand k",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:21"
+}
+{
+    "id": 1108,
+    "name": "Mock Brand l",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:24"
+}
+{
+    "id": 2108,
+    "name": "Test Brand l",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:24"
+}
+{
+    "id": 1109,
+    "name": "Mock Brand m",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:26"
+}
+{
+    "id": 2109,
+    "name": "Test Brand m",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:26"
+}
+{
+    "id": 1110,
+    "name": "Mock Brand n",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:29"
+}
+{
+    "id": 2110,
+    "name": "Test Brand n",
+    "created_at": "2025-05-05",
+    "updated_at": "2025-05-05 10:07:29"
+}

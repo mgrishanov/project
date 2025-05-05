@@ -1,0 +1,27 @@
+#!/usr/bin/env php
+<?php
+declare(strict_types=1);
+
+// Включаем автозагрузку классов
+require_once __DIR__ . '/../vendor/autoload.php';
+
+// Загружаем .env конфигурацию
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/..');
+$dotenv->load();
+
+use Symfony\Component\Console\Application;
+use WB\Parser\Command\MigrateCommand;
+use WB\Parser\Command\ParseBrandsCommand;
+use WB\Parser\Command\ParseProductsCommand;
+use WB\Parser\Command\ParseAllCommand;
+
+$application = new Application('Wildberries Parser', '1.0.0');
+
+// Регистрируем команды
+$application->add(new ParseBrandsCommand());
+$application->add(new ParseProductsCommand());
+$application->add(new ParseAllCommand());
+$application->add(new MigrateCommand());
+
+// Запускаем приложение
+$application->run();

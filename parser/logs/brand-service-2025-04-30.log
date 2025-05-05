@@ -1,0 +1,7 @@
+[2025-04-30 10:36:21] brand-service.INFO: Starting to process all brands  
+[2025-04-30 10:36:24] brand-service.ERROR: Failed to get brand letters {"error":"Failed to make request to https://www.wildberries.ru/webapi/brandlist/data after 3 attempts: Client error: `POST https://www.wildberries.ru/webapi/brandlist/data` resulted in a `498 ` response:
+<!doctype html><html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta name=\"viewport\" cont (truncated...)
+"} 
+[2025-04-30 10:36:24] brand-service.ERROR: Failed to process brands {"error":"Failed to make request to https://www.wildberries.ru/webapi/brandlist/data after 3 attempts: Client error: `POST https://www.wildberries.ru/webapi/brandlist/data` resulted in a `498 ` response:
+<!doctype html><html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta name=\"viewport\" cont (truncated...)
+"} 
