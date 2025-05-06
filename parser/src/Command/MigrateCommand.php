@@ -10,6 +10,7 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
+use Symfony\Component\DependencyInjection\Attribute\AutoconfigureTag;
 use WB\Parser\Database\ClickHouseConnection;
 use WB\Parser\Migration\MigrationManager;
 use WB\Parser\Util\Logger;
@@ -24,6 +25,11 @@ use WB\Parser\Util\Logger;
 class MigrateCommand extends Command
 {
     private Logger $logger;
+
+    public function __construct()
+    {
+        parent::__construct('migrate');
+    }
 
     protected function configure(): void
     {

@@ -1,0 +1,1040 @@
+{
+    "id": 48060,
+    "name": "Шорты",
+    "seller_id": 0,
+    "brand_id": 6,
+    "subject_id": 151,
+    "root": 70929,
+    "kind_id": 2,
+    "subject_parent_id": 1,
+    "match_id": 0,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 6597128,
+    "name": "Панама",
+    "seller_id": 0,
+    "brand_id": 1,
+    "subject_id": 255,
+    "root": 5223294,
+    "kind_id": 3,
+    "subject_parent_id": 6,
+    "match_id": 0,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 27755440,
+    "name": "Плащ",
+    "seller_id": 0,
+    "brand_id": 6,
+    "subject_id": 171,
+    "root": 20360716,
+    "kind_id": 2,
+    "subject_parent_id": 1,
+    "match_id": 0,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 62855,
+    "name": "Водолазка",
+    "seller_id": 0,
+    "brand_id": 6,
+    "subject_id": 153,
+    "root": 65895,
+    "kind_id": 2,
+    "subject_parent_id": 1,
+    "match_id": 0,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 60509,
+    "name": "Кофточка",
+    "seller_id": 0,
+    "brand_id": 6,
+    "subject_id": 215,
+    "root": 64965,
+    "kind_id": 2,
+    "subject_parent_id": 1,
+    "match_id": 0,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 224687606,
+    "name": "Духи стойкие пробник отливант Narcos'is",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 356,
+    "root": 214128378,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 9272187,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 224687622,
+    "name": "Духи стойкие пробник отливант Ange ou Demon",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 356,
+    "root": 214127813,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 10482525,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 178726276,
+    "name": "Пигмент №16 –Juicy Fantasy 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 126339001,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 224687574,
+    "name": "Духи стойкие пробник отливант Molecule 02",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 356,
+    "root": 214128352,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 13274094,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 238222051,
+    "name": "Духи стойкие по мотивам Coco Mademoiselle 30 ML",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 356,
+    "root": 214128479,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 3752318,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 178726277,
+    "name": "Пигмент №13 –Ultra Pink 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 159627397,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 189910846,
+    "name": "Пигмент для губ №2 - Raspberry (малина) 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 135337661,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 176916324,
+    "name": "Пигмент №1 Black Chocolate (темный шоколад) 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 122760741,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147667370,
+    "name": "Корректор Copper (медный) 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 147991519,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147596742,
+    "name": "Пигмент №4 Bronze (бронзовый) 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 125466066,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 214858176,
+    "name": "LED противотуманки Hyundai 50W (5 линз) 1 режима",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 2395,
+    "root": 190245284,
+    "kind_id": 0,
+    "subject_parent_id": 760,
+    "match_id": 144006261,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147667367,
+    "name": "Корректор Lemon (лимон) 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 151257604,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147596724,
+    "name": "Пигмент №1 Black Chocolate (темный шоколад) 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 117933641,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 176906356,
+    "name": "Пигмент для губ №1 - Magnolia 5мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 125261075,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147596738,
+    "name": "Пигмент №3 Dark coffee (чёрный кофе) 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 185909432,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147610814,
+    "name": "Пигмент Elegant Black 5мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 156929608,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 209967858,
+    "name": "Рычаг передний правый (с шаровой и сайлентблоком)",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 7892,
+    "root": 189722616,
+    "kind_id": 0,
+    "subject_parent_id": 760,
+    "match_id": 8381999,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635822,
+    "name": "Пигмент №12 - Magenta 10мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 123520809,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 224688275,
+    "name": "Духи стойкие пробник отливант Vanilla Blend",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 356,
+    "root": 214128174,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 4907204,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147667362,
+    "name": "Корректор Pure white 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 177017689,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 178726275,
+    "name": "Пигмент №16 –Juicy Fantasy 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 180592841,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147667356,
+    "name": "Корректор Pure white 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 172795237,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 228818780,
+    "name": "форсунка системы впрыска топлива MOBIS Корея",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 7825,
+    "root": 205865749,
+    "kind_id": 0,
+    "subject_parent_id": 760,
+    "match_id": 11422457,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 205725298,
+    "name": "крышка клапанов",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5753,
+    "root": 186450331,
+    "kind_id": 0,
+    "subject_parent_id": 760,
+    "match_id": 6449393,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 201498752,
+    "name": "крышка клапанов",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5753,
+    "root": 182691565,
+    "kind_id": 0,
+    "subject_parent_id": 760,
+    "match_id": 6449393,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 178726280,
+    "name": "Пигмент №15 – Cherry Mouse 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 155818782,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635833,
+    "name": "Пигмент №10 - Light Red 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 180870154,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147667365,
+    "name": "Корректор Fresh greens 5мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 174297160,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147596729,
+    "name": "Пигмент №2 Perfect Ginger (пшеничный) 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 173920480,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 299031374,
+    "name": "Тканевая штора для ванной 200х200 водоотталкивающая",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 1479,
+    "root": 279425113,
+    "kind_id": 0,
+    "subject_parent_id": 8693,
+    "match_id": 169992358,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 176908240,
+    "name": "Пигмент №6 - Amaryllis 10мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 105197265,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 178726278,
+    "name": "Пигмент №13 –Ultra Pink 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 184121482,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147667354,
+    "name": "Корректор Mandarin (мандарин) 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 110308853,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147610812,
+    "name": "Пигмент Elegant Black 10мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 104797431,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147596741,
+    "name": "Пигмент №4 Bronze (бронзовый) 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 181142033,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147667368,
+    "name": "Корректор Copper (медный) 10мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 174637058,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147596733,
+    "name": "Пигмент №6 Cappuccino (капучино) 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 123132563,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635818,
+    "name": "Пигмент №5 - Wild Rose 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 182202443,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635817,
+    "name": "Пигмент №9 - Cherry Bomb 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 152277732,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635832,
+    "name": "Пигмент №8 - Wine Red 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 155895956,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 299179614,
+    "name": "Коврик для ванной и туалета антискользящий 60х90",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 1625,
+    "root": 279562048,
+    "kind_id": 0,
+    "subject_parent_id": 8693,
+    "match_id": 109958402,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 13532385,
+    "name": "Сарафан летний женский",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 70,
+    "root": 10133752,
+    "kind_id": 2,
+    "subject_parent_id": 1,
+    "match_id": 150331124,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635843,
+    "name": "Пигмент№3 - Burgundy 10мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 129277990,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147596743,
+    "name": "Пигмент №5 Charcoal (древесный уголь) 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 144235468,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147667351,
+    "name": "Корректор Mandarin (мандарин) 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 111928799,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147596744,
+    "name": "Пигмент Charcoal 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 185669445,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635824,
+    "name": "Пигмент №7 - Peach 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 183048754,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635839,
+    "name": "Пигмент№3 - Burgundy 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 103235809,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 178726282,
+    "name": "Пигмент №14 – Terracotta 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 127638653,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 176905166,
+    "name": "Пигмент для губ №2 - Raspberry (малина) 5мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 145414045,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635821,
+    "name": "Пигмент №6 - Amaryllis 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 183130528,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635835,
+    "name": "Пигмент №10 - Light Red 10мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 157411060,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635842,
+    "name": "Пигмент №5 - Wild Rose 10мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 102374673,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635829,
+    "name": "Пигмент №11 - Sangria 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 158756622,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635826,
+    "name": "Пигмент №11 - Sangria 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 153780906,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635828,
+    "name": "Пигмент для губ №1 - Magnolia 10мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 130612692,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 382880303,
+    "name": "Сумочка женская розовый",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 50,
+    "root": 374585373,
+    "kind_id": 2,
+    "subject_parent_id": 3,
+    "match_id": 221809745,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 178726279,
+    "name": "Пигмент №15 – Cherry Mouse 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 127641970,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635823,
+    "name": "Пигмент №7 - Peach 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 156549943,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147667353,
+    "name": "Корректор Golden sand (золотой песок) 10мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 171039065,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635825,
+    "name": "Пигмент №4 - Caramel 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 118411271,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147596730,
+    "name": "Пигмент №6 Cappuccino (капучино) 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 118209571,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147667363,
+    "name": "Корректор Golden sand (золотой песок) 5мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 115688629,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147596727,
+    "name": "Пигмент №2 Perfect Ginger (пшеничный) 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 124297109,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635830,
+    "name": "Пигмент №8 - Wine Red 10мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 182036111,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 176916323,
+    "name": "Пигмент №3 Dark coffee (чёрный кофе) 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 181214322,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147667366,
+    "name": "Корректор Lemon (лимон) 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 111444249,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 178726281,
+    "name": "Пигмент №14 – Terracotta 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 178229599,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635838,
+    "name": "Пигмент №9 - Cherry Bomb 10 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 155695997,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147635840,
+    "name": "Пигмент №4 - Caramel 10мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 161132878,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 127323688,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 147667364,
+    "name": "Корректор Fresh greens 10мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 5737,
+    "root": 124909849,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 147954135,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 233968089,
+    "name": "Пигмент для губ №10 Light red 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 1698,
+    "root": 210507675,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 159125939,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 211122877,
+    "name": "Чехлы на Хендай Акцент Hyundai 2 кожа автонакидки",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 1058,
+    "root": 190801108,
+    "kind_id": 0,
+    "subject_parent_id": 8891,
+    "match_id": 4737739,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 233965777,
+    "name": "Пигмент для губ №4 Caramel 5 мл",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 1698,
+    "root": 210507675,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 110032067,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}
+{
+    "id": 224688024,
+    "name": "Духи стойкие пробник отливант La Vie Est Belle",
+    "seller_id": 0,
+    "brand_id": 16,
+    "subject_id": 356,
+    "root": 214128054,
+    "kind_id": 0,
+    "subject_parent_id": 49,
+    "match_id": 4943640,
+    "created_at": "2025-05-06",
+    "updated_at": "2025-05-06 07:47:15"
+}

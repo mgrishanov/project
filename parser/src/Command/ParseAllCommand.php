@@ -27,6 +27,11 @@ class ParseAllCommand extends Command
 {
     private Logger $logger;
 
+    public function __construct()
+    {
+        parent::__construct('parse:all');
+    }
+
     protected function configure(): void
     {
         $this

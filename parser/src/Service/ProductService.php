@@ -120,7 +120,11 @@ class ProductService
                         name: (string) $productData['name'],
                         sellerId: (int) ($productData['sellerId'] ?? 0),
                         brandId: $brandId,
-                        subjectId: (int) ($productData['subjectId'] ?? 0)
+                        subjectId: (int) ($productData['subjectId'] ?? 0),
+                        root: isset($productData['root']) ? (int) $productData['root'] : null,
+                        kindId: isset($productData['kindId']) ? (int) $productData['kindId'] : null,
+                        subjectParentId: isset($productData['subjectParentId']) ? (int) $productData['subjectParentId'] : null,
+                        matchId: isset($productData['matchId']) ? (int) $productData['matchId'] : null
                     );
                     
                     $products[] = $product;

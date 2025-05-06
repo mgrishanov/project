@@ -26,6 +26,11 @@ class ParseBrandsCommand extends Command
 {
     private Logger $logger;
 
+    public function __construct()
+    {
+        parent::__construct('parse:brands');
+    }
+
     protected function configure(): void
     {
         $this

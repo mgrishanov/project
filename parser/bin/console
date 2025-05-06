@@ -2,26 +2,28 @@
 <?php
 declare(strict_types=1);
 
-// Включаем автозагрузку классов
 require_once __DIR__ . '/../vendor/autoload.php';
 
-// Загружаем .env конфигурацию
+use Symfony\Component\Console\Application;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+
+// .env
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/..');
 $dotenv->load();
 
-use Symfony\Component\Console\Application;
-use WB\Parser\Command\MigrateCommand;
-use WB\Parser\Command\ParseBrandsCommand;
-use WB\Parser\Command\ParseProductsCommand;
-use WB\Parser\Command\ParseAllCommand;
+// DI-контейнер
+/** @var ContainerBuilder $container */
+$container = require __DIR__ . '/../config/services_container.php';
 
 $application = new Application('Wildberries Parser', '1.0.0');
 
-// Регистрируем команды
-$application->add(new ParseBrandsCommand());
-$application->add(new ParseProductsCommand());
-$application->add(new ParseAllCommand());
-$application->add(new MigrateCommand());
+// Регистрируем все сервисы с тегом 'console.command'
+foreach ($container->findTaggedServiceIds('console.command') as $id => $tags) {
+    try {
+        $application->add($container->get($id));
+    } catch (\Throwable $e) {
+        fwrite(STDERR, "[ERROR] $id: {$e->getMessage()}\n");
+    }
+}
 
-// Запускаем приложение
 $application->run();
