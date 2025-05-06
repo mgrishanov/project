@@ -13,21 +13,12 @@ use WB\Parser\Util\Logger;
 class ProductService
 {
     private Logger $logger;
-    private ?\Closure $progressCallback = null;
 
     public function __construct(
         private readonly WildberriesApi $api,
         private readonly ProducerInterface $producer,
     ) {
         $this->logger = new Logger('product-service');
-    }
-
-    /**
-     * Устанавливает колбэк для отображения прогресса
-     */
-    public function setProgressCallback(\Closure $callback): void
-    {
-        $this->progressCallback = $callback;
     }
 
     /**
@@ -66,11 +57,6 @@ class ProductService
                     // Отправляем данные в Kafka
                     foreach ($products as $product) {
                         $this->producer->sendProduct($product->toArray());
-                        
-                        // Вызываем колбэк прогресса, если он установлен
-                        if ($this->progressCallback !== null) {
-                            ($this->progressCallback)();
-                        }
                     }
                     
                     // Получаем детальную информацию о товарах (включая остатки)
@@ -147,9 +133,6 @@ class ProductService
                 $products = $this->extractProducts($data, $brandId);
                 foreach ($products as $product) {
                     $this->producer->sendProduct($product->toArray());
-                    if ($this->progressCallback !== null) {
-                        ($this->progressCallback)();
-                    }
                 }
                 $this->logger->info('Processed products for brand (pool)', [
                     'brand_id' => $brandId,

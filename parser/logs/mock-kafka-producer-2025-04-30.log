@@ -1,3 +1,0 @@
-[2025-04-30 10:33:22] mock-kafka-producer.INFO: Initialized Mock Kafka Producer {"output_dir":"/app/output","brokers":"kafka:9092","topics":{"brands":"brands","products":"products","quantities":"quantities"}} 
-[2025-04-30 10:35:24] mock-kafka-producer.INFO: Initialized Mock Kafka Producer {"output_dir":"output","brokers":"kafka:9092","topics":{"brands":"brands","products":"products","quantities":"quantities"}} 
-[2025-04-30 10:36:21] mock-kafka-producer.INFO: Initialized Mock Kafka Producer {"output_dir":"output","brokers":"kafka:9092","topics":{"brands":"brands","products":"products","quantities":"quantities"}} 

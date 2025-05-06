@@ -103,22 +103,23 @@ class ParseAllProductsCommand extends Command
             $io->progressStart($totalBrands);
 
             $processedCount = 0;
-            $offset = 0;
-            while ($processedCount < $totalBrands) {
-                $brands = $brandService->getBrands($batchSize, $offset);
+            $lastId = 0;
+            while (true) {
+                $brands = $brandService->getBrands($batchSize, $lastId);
                 if (empty($brands)) {
                     break;
                 }
+
                 // Параллельный запуск вынесен в сервис
-                $this->productParsingService->parseAllBrands($brands, function() use ($io) {
-                    $io->progressAdvance();
-                });
+                $io->progressAdvance($batchSize);
+                $this->productParsingService->parseAllBrands($brands);
                 $processedCount += count($brands);
-                $offset += $batchSize;
+                $lastId = end($brands)['id'];
                 $this->logger->info('Processed batch of brands', [
                     'batch_size' => count($brands),
                     'processed_total' => $processedCount,
-                    'total_brands' => $totalBrands
+                    'total_brands' => $totalBrands,
+                    'last_id' => $lastId
                 ]);
             }
             $io->progressFinish();

@@ -23,12 +23,11 @@ class ProductParsingService implements ProductParsingServiceInterface
     /**
      * @inheritDoc
      */
-    public function parseAllBrands(array $brands, callable $onProgress): void
+    public function parseAllBrands(array $brands): void
     {
         // Собираем массив brandId
         $brandIds = array_column($brands, 'id');
         // Запускаем пул параллельных запросов через Guzzle (50 одновременных)
-        $this->productService->setProgressCallback($onProgress);
         $this->productService->processProductsByBrands($brandIds, 50);
     }
 

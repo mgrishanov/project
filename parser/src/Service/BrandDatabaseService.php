@@ -23,24 +23,24 @@ class BrandDatabaseService
      * Получение всех брендов из базы данных с пагинацией
      * 
      * @param int $limit Максимальное количество брендов для получения
-     * @param int $offset Смещение для пагинации
+     * @param int $lastId ID последнего бренда
      * @return array Массив брендов с ключами id и name
      */
-    public function getBrands(int $limit = 100, int $offset = 0): array
+    public function getBrands(int $limit = 100, int $lastId = 0): array
     {
         try {
             $client = ClickHouseConnection::getClient();
             
             $this->logger->info('Getting brands from database with pagination', [
                 'limit' => $limit,
-                'offset' => $offset
+                'last_id' => $lastId
             ]);
             
             $statement = $client->select(
-                'SELECT id, name FROM brand ORDER BY id LIMIT :limit OFFSET :offset',
+                'SELECT id, name FROM brand WHERE id > :last_id ORDER BY id LIMIT :limit',
                 [
                     'limit' => $limit,
-                    'offset' => $offset
+                    'last_id' => $lastId
                 ]
             );
             

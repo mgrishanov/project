@@ -1,9 +1,0 @@
-[2025-05-05 12:19:05] migrate-command.ERROR: Migration failed {"error":"Syntax error (Multi-statements are not allowed): failed at position 41 (end of query) (line 2, col 40): ;
-            drop table if exists brands_kafka;
-            drop table if exists brands_mv;
-        . . (SYNTAX_ERROR) 
-IN:
-            drop table if exists brands;
-            drop table if exists brands_kafka;
-            drop table if exists brands_mv;
-        "} 

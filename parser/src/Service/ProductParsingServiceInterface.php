@@ -13,7 +13,6 @@ interface ProductParsingServiceInterface
      * Запускает парсинг всех брендов параллельно.
      *
      * @param array $brands Список брендов для парсинга
-     * @param callable $onProgress Колбэк для прогресса
      */
-    public function parseAllBrands(array $brands, callable $onProgress): void;
+    public function parseAllBrands(array $brands): void;
 }
