@@ -3,8 +3,10 @@ init
 docs
 .env
 .env.example
-clickhouse/clickhouse-server/users.d
-clickhouse/clickhouse-server/config.d
+./clickhouse/clickhouse-server/users.d
+./clickhouse/clickhouse-server/config.d
+./clickhouse_data
 parser/src/Api/WildberriesHeaders.php
 .idea
 README.md
+logs
