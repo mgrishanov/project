@@ -105,6 +105,37 @@ class WildberriesApi
     }
 
     /**
+     * Получить URL для запроса товаров по бренду (для параллельного парсинга)
+     *
+     * @param int $brandId
+     * @param int $page
+     * @return string
+     */
+    public function getProductsByBrandUrl(int $brandId, int $page = 1): string
+    {
+        return $_ENV['WB_CATALOG_API_URL'] . '/brands/v2/catalog?' . http_build_query([
+            'ab_testing' => 'false',
+            'appType' => 1,
+            'brand' => $brandId,
+            'curr' => 'rub',
+            'dest' => 12358314, // Москва
+            'lang' => 'ru',
+            'page' => $page,
+            'sort' => 'popular',
+            'spp' => 30,
+        ]);
+    }
+
+    /**
+     * Получить заголовки для запроса продуктов
+     * @return array
+     */
+    public function getProductHeaders(): array
+    {
+        return WildberriesHeaders::getProductHeaders();
+    }
+
+    /**
      * Получение детальной информации о товарах по ID
      * 
      * @param array<int> $productIds Массив ID товаров

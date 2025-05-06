@@ -25,19 +25,11 @@ class ProductParsingService implements ProductParsingServiceInterface
      */
     public function parseAllBrands(array $brands, callable $onProgress): void
     {
-        $pool = Pool::create()->concurrency(8); // 8 процессов
-
-        foreach ($brands as $brand) {
-            $pool->add(function () use ($brand) {
-                $this->productService->processProductsByBrand($brand['id']);
-            })->then(function () use ($onProgress) {
-                $onProgress();
-            })->catch(function (Throwable $exception) use ($brand) {
-                // TODO: логирование ошибок
-            });
-        }
-
-        $pool->wait();
+        // Собираем массив brandId
+        $brandIds = array_column($brands, 'id');
+        // Запускаем пул параллельных запросов через Guzzle (50 одновременных)
+        $this->productService->setProgressCallback($onProgress);
+        $this->productService->processProductsByBrands($brandIds, 50);
     }
 
     /**

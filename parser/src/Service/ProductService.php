@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace WB\Parser\Service;
 
+use GuzzleHttp\Client;
 use WB\Parser\Api\WildberriesApi;
 use WB\Parser\Model\Product;
 use WB\Parser\Producer\ProducerInterface;
@@ -97,6 +98,86 @@ class ProductService
             
             throw $e;
         }
+    }
+
+    /**
+     * Параллельная обработка товаров по списку brandId через Guzzle Pool с динамическим добавлением страниц
+     *
+     * @param array<int> $brandIds Список ID брендов
+     * @param int $concurrency Количество параллельных запросов (по умолчанию 50)
+     * @return void
+     */
+    public function processProductsByBrands(array $brandIds, int $concurrency = 50): void
+    {
+        $client = new Client(['timeout' => 30]);
+        $queue = new \SplQueue();
+
+        // Кладём по одному запросу с page=1 на каждый бренд
+        foreach ($brandIds as $brandId) {
+            $url = $this->api->getProductsByBrandUrl($brandId, 1);
+            $headers = $this->api->getProductHeaders();
+            $queue->enqueue([
+                'brandId' => $brandId,
+                'page' => 1,
+                'request' => new \GuzzleHttp\Psr7\Request('GET', $url, $headers),
+            ]);
+        }
+
+        $self = $this; // для передачи в замыкание
+        $requests = function () use ($queue) {
+            while (!$queue->isEmpty()) {
+                $item = $queue->dequeue();
+                yield ['brandId' => $item['brandId'], 'page' => $item['page']] => $item['request'];
+            }
+        };
+
+        $brandPageMap = [];
+        foreach ($brandIds as $brandId) {
+            $brandPageMap[$brandId] = 1;
+        }
+
+        $pool = new \GuzzleHttp\Pool($client, $requests(), [
+            'concurrency' => $concurrency,
+            'fulfilled' => function ($response, $index) use ($queue, &$brandPageMap, $brandIds) {
+                $brandId = $index['brandId'];
+                $page = $index['page'];
+                
+                $body = $response->getBody()->getContents();
+                $data = json_decode($body, true);
+                $products = $this->extractProducts($data, $brandId);
+                foreach ($products as $product) {
+                    $this->producer->sendProduct($product->toArray());
+                    if ($this->progressCallback !== null) {
+                        ($this->progressCallback)();
+                    }
+                }
+                $this->logger->info('Processed products for brand (pool)', [
+                    'brand_id' => $brandId,
+                    'page' => $page,
+                    'count' => count($products),
+                ]);
+                // Если товаров 100 — добавляем следующий запрос для этого бренда
+                if (count($products) === 100) {
+                    $nextPage = $page + 1;
+                    $url = $this->api->getProductsByBrandUrl($brandId, $nextPage);
+                    $headers = $this->api->getProductHeaders();
+                    $queue->enqueue([
+                        'brandId' => $brandId,
+                        'page' => $nextPage,
+                        'request' => new \GuzzleHttp\Psr7\Request('GET', $url, $headers),
+                    ]);
+                    $brandPageMap[$brandId] = $nextPage;
+                }
+            },
+            'rejected' => function ($reason, $index) {
+                $this->logger->error('Failed to get products for brand (pool)', [
+                    'brand_id' => $index['brandId'],
+                    'error' => $reason instanceof \Throwable ? $reason->getMessage() : $reason,
+                ]);
+            },
+        ]);
+        $promise = $pool->promise();
+        $promise->wait();
     }
 
     /**
